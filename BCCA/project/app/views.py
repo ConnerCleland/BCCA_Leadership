@@ -19,22 +19,30 @@ teams: TeamsDict = {
     "Management": Team(
         name="Management",
         description="Description for Management - They check cleaning supplies",
-        members=["John", "Jane"],
+        members=["Owen", "Jeremiah", "Nick", "Ab", "Abigail", "Mathew"],
     ),
     "Procurement": Team(
         name="Procurement",
         description="Description for Procurement - They give us sandwiches",
-        members=["Bob", "Alice"],
+        members=["Adrian", "Bryce", "Big John", "Blaine", "Wyatt"],
     ),
     "Documentation": Team(
         name="Documentation",
         description="Description for Documentation - They are the best out of everyone else",
-        members=["Conner", "Josh"],
+        members=[
+            "Conner",
+            "Kaleigh",
+            "Blair",
+            "Mina",
+            "Jay",
+            "Joshua",
+            "Kayleah",
+        ],
     ),
     "Community": Team(
         name="Community",
         description="Description for Community - They get told by Shawn what to do",
-        members=["Abe", "Nick"],
+        members=["Jordan", "Joby", "Aj", "Micah", "Caleb"],
     ),
 }
 
