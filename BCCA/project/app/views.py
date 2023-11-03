@@ -58,3 +58,7 @@ def team_detail_view(request: HttpRequest, team_name: TeamDetailParam) -> HttpRe
 
 def start_view(request: HttpRequest) -> HttpResponse:
     return render(request, "base.html")
+
+
+def team_list_view(request: HttpRequest) -> HttpResponse:
+    return render(request, "team_list.html", {"teams": teams})

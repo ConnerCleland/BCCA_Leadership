@@ -20,11 +20,5 @@
         {% block content %}{% endblock %}
     </div>
 
-    <h2>Team List</h2>
-    <ul class="Text">
-        {% for team_name, team in teams.items %}
-            <li><a href="{% url 'team_detail' team_name %}">{{ team.name }}</a></li>
-        {% endfor %}
-    </ul>
 </body>
 </html>
